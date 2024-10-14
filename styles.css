@@ -96,10 +96,10 @@ footer {
 }
 
 .profile-img {
-    width: 150px;  /* Set a smaller size */
-    height: 150px;  /* Maintain a square ratio */
-    border-radius: 50%;  /* Makes the image circular */
-    object-fit: cover;  /* Ensures the image fills the circle without distortion */
+    width: 150px;  
+    height: 150px;  
+    border-radius: 50%; 
+    object-fit: cover;  
     margin-bottom: 20px;
-    border: 4px solid #fff;  /* Add a white border for contrast */
+    border: 4px solid #fff;  
 }
