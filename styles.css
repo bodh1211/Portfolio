@@ -65,9 +65,40 @@ header ul li a:hover {
     border-radius: 5px;
 }
 
+.git{
+    background-color: #080808;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.linked{
+    background-color: #1a8de4;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+
+
 .btn:hover {
     background-color: #e5533c;
 }
+
+.git:hover {
+    background-color: #0a88f0b9;
+}
+
+.linked:hover {
+    background-color: #211f1f;
+}
+
 
 .container {
     width: 80%;
@@ -96,10 +127,10 @@ footer {
 }
 
 .profile-img {
-    width: 150px;  
-    height: 150px;  
-    border-radius: 50%; 
-    object-fit: cover;  
+    width: 150px;  /* Set a smaller size */
+    height: 150px;  /* Maintain a square ratio */
+    border-radius: 50%;  /* Makes the image circular */
+    object-fit: cover;  /* Ensures the image fills the circle without distortion */
     margin-bottom: 20px;
-    border: 4px solid #fff;  
+    border: 4px solid #fff;  /* Add a white border for contrast */
 }
